@@ -1,0 +1,11 @@
+<body>
+	
+        <div data-saltpay-navbar></div>
+        <script type="module">
+            import Component from "../src/index.tsx";
+            import { render, h } from "preact";
+
+            const root = document.querySelector('[data-saltpay-navbar]');
+            render(h(Component, {}), root);
+        </script>
+</body>
